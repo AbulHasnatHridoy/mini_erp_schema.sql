@@ -52,7 +52,7 @@ Entry-level IT/MIS candidate with practical experience in SQL database design an
 
 ### Tools
 - Git & GitHub (version control and project documentation)
-- Microsoft Excel (Intermediate: VLOOKUP, Pivot Tables, Data Validation)
+- Microsoft Excel (Intermediate level)
 - Microsoft Word & PowerPoint (Intermediate)
 
 ---
