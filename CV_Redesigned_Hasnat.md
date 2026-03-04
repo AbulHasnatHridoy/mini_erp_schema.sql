@@ -63,9 +63,15 @@ Designed and implemented a relational database system simulating ERP-style emplo
 
 ## 🎓 Education
 
-**Bachelor of Science in Computer Science**  
+**Bachelor of Science in Computer Science & Engineering**  
 Daffodil International University  
-Graduated: 2025
+Graduated: 2025 | CGPA: 3.59/4.00
+
+**Higher Secondary Certificate (HSC)**  
+2018 | GPA: 4.00/5.00
+
+**Secondary School Certificate (SSC)**  
+2016 | GPA: 5.00/5.00
 
 ---
 
