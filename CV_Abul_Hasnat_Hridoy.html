@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abul Hasnat Hridoy - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        ul {
+            list-style-position: inside;
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        .project {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+        }
+        
+        .project h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .project-link {
+            color: #3498db;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        
+        .highlights {
+            background: white;
+            margin-top: 10px;
+        }
+        
+        .highlights ul {
+            margin-left: 40px;
+        }
+        
+        .objective {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .strengths-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .strength-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-left: 3px solid #27ae60;
+        }
+        
+        .competency {
+            margin-bottom: 15px;
+        }
+        
+        .competency strong {
+            color: #2c3e50;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            
+            h2 {
+                page-break-after: avoid;
+            }
+            
+            .project {
+                page-break-inside: avoid;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .strengths-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Abul Hasnat Hridoy</h1>
+            <div class="contact-info">
+                📍 Dhaka, Bangladesh<br>
+                📞 +880 1XXX-XXXXXX | 📧 <a href="mailto:hasnat.hridoy@example.com">hasnat.hridoy@example.com</a><br>
+                🔗 <a href="https://linkedin.com/in/abul-hasnat-hridoy" target="_blank">LinkedIn</a> | 
+                💻 <a href="https://github.com/AbulHasnatHridoy/mini_erp_schema.sql" target="_blank">GitHub Project</a>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>🎯 Career Objective</h2>
+            <div class="objective">
+                Motivated IT enthusiast seeking an entry-level <strong>IT / MIS / Assistant Officer (IT)</strong> position where I can apply my practical SQL database skills and continue developing expertise in ERP systems, database management, and enterprise IT support.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>💻 Technical Skills</h2>
+            
+            <h3>Database & SQL</h3>
+            <ul>
+                <li>MySQL 8.0 (Ubuntu WSL environment)</li>
+                <li>Database design (normalized schema)</li>
+                <li>Primary Key / Foreign Key implementation</li>
+                <li>CHECK constraints</li>
+                <li>INNER JOIN, LEFT JOIN</li>
+                <li>GROUP BY, Aggregation (SUM, AVG, COUNT)</li>
+                <li>Subqueries</li>
+                <li>Basic indexing</li>
+                <li>Date-based reporting queries</li>
+            </ul>
+
+            <h3>Operating System</h3>
+            <ul>
+                <li>Linux (Ubuntu – WSL)</li>
+                <li>Command line basics (navigation, MySQL CLI usage)</li>
+            </ul>
+
+            <h3>Tools</h3>
+            <ul>
+                <li>Git & GitHub (project upload and documentation)</li>
+                <li>Microsoft Excel (Intermediate level)</li>
+                <li>Microsoft Word & PowerPoint (Intermediate)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📂 Projects</h2>
+            
+            <div class="project">
+                <h3>🔹 Mini ERP SQL Project</h3>
+                <p><strong>GitHub:</strong> <a href="https://github.com/AbulHasnatHridoy/mini_erp_schema.sql" class="project-link" target="_blank">github.com/AbulHasnatHridoy/mini_erp_schema.sql</a></p>
+                
+                <p>Designed and implemented a relational database system simulating ERP-style employee and payroll management.</p>
+                
+                <div class="highlights">
+                    <p><strong>Project Highlights:</strong></p>
+                    <ul>
+                        <li>Created normalized tables (Departments, Employees, Salaries)</li>
+                        <li>Implemented foreign key relationships</li>
+                        <li>Enforced data integrity using constraints</li>
+                        <li>Developed reporting queries:
+                            <ul>
+                                <li>Department-wise total salary</li>
+                                <li>Monthly payroll summary</li>
+                                <li>Total salary per employee</li>
+                                <li>Employee count per department</li>
+                                <li>Department with highest total salary</li>
+                                <li>Advanced queries using window functions and running totals</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><strong>Environment:</strong> MySQL 8.0 on Ubuntu (WSL)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🎓 Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong><br>
+            [Your University Name]<br>
+            Graduated: [Year] / Expected: [Year]</p>
+        </section>
+
+        <section class="section">
+            <h2>📚 Ongoing Learning</h2>
+            <ul>
+                <li>Advanced SQL reporting</li>
+                <li>ERP system fundamentals</li>
+                <li>Linux system basics</li>
+                <li>Networking fundamentals (self-study phase)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🧠 Strengths</h2>
+            <div class="strengths-grid">
+                <div class="strength-item">✓ Strong logical thinking</div>
+                <div class="strength-item">✓ Problem-solving through debugging</div>
+                <div class="strength-item">✓ Willingness to learn and improve</div>
+                <div class="strength-item">✓ Clear understanding of relational database structure</div>
+                <div class="strength-item">✓ Discipline in hands-on practice</div>
+                <div class="strength-item">✓ Detail-oriented approach</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>✅ Key Competencies</h2>
+            <div class="competency">
+                <strong>Database Management:</strong> Hands-on experience with MySQL schema design and query optimization
+            </div>
+            <div class="competency">
+                <strong>Data Integrity:</strong> Implementation of constraints and validation rules
+            </div>
+            <div class="competency">
+                <strong>Documentation:</strong> Well-documented code and project README files
+            </div>
+            <div class="competency">
+                <strong>Version Control:</strong> Practical use of Git for project management
+            </div>
+            <div class="competency">
+                <strong>Self-Learning:</strong> Proactive in acquiring new technical skills
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>References available upon request</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
