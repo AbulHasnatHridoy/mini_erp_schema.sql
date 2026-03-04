@@ -10,7 +10,7 @@
 
 ## 🎯 Career Objective
 
-Motivated IT enthusiast seeking an entry-level **IT / MIS / Assistant Officer (IT)** position where I can apply my practical SQL database skills and continue developing expertise in ERP systems, database management, and enterprise IT support.
+Entry-level IT/MIS candidate with practical experience in SQL database design and reporting, seeking to contribute to enterprise IT operations while developing ERP and system support expertise.
 
 ---
 
@@ -18,14 +18,15 @@ Motivated IT enthusiast seeking an entry-level **IT / MIS / Assistant Officer (I
 
 ### Database & SQL
 - MySQL 8.0 (Ubuntu WSL environment)
-- Database design (normalized schema)
+- Relational database design (normalized schema)
 - Primary Key / Foreign Key implementation
-- CHECK constraints
+- CHECK constraints and data validation
 - INNER JOIN, LEFT JOIN
 - GROUP BY, Aggregation (SUM, AVG, COUNT)
-- Subqueries
+- Subqueries and nested queries
 - Basic indexing
 - Date-based reporting queries
+- Transaction management
 
 ### ERP & Enterprise Systems
 - SAP ERP architecture fundamentals
@@ -45,12 +46,13 @@ Motivated IT enthusiast seeking an entry-level **IT / MIS / Assistant Officer (I
 - Documentation and audit readiness
 
 ### Operating System
-- Linux (Ubuntu – WSL)
-- Command line basics (navigation, MySQL CLI usage)
+- Ubuntu (WSL) – command line basics and MySQL CLI usage
+- File system navigation
+- Basic shell commands
 
 ### Tools
-- Git & GitHub (project upload and documentation)
-- Microsoft Excel (Intermediate level)
+- Git & GitHub (version control and project documentation)
+- Microsoft Excel (Intermediate: VLOOKUP, Pivot Tables, Data Validation)
 - Microsoft Word & PowerPoint (Intermediate)
 
 ---
@@ -63,18 +65,20 @@ Motivated IT enthusiast seeking an entry-level **IT / MIS / Assistant Officer (I
 Designed and implemented a relational database system simulating ERP-style employee and payroll management.
 
 **Project Highlights:**
-- Created normalized tables (Departments, Employees, Salaries)
-- Implemented foreign key relationships
-- Enforced data integrity using constraints
-- Developed reporting queries:
-  - Department-wise total salary
-  - Monthly payroll summary
-  - Total salary per employee
-  - Employee count per department
-  - Department with highest total salary
-  - Advanced queries using window functions and running totals
+- Designed normalized relational schema (3NF) with three core tables
+- Implemented foreign key relationships and referential integrity
+- Enforced data integrity using CHECK constraints
+- Created complex reporting queries:
+  - Department-wise total salary aggregation using GROUP BY
+  - Monthly payroll summary with date functions
+  - Employee salary analysis with INNER JOIN and LEFT JOIN
+  - Department with highest total salary using ORDER BY and LIMIT
+  - Advanced queries using window functions for running totals
+- Built subqueries for business logic (salary above average, employee count)
+- Developed comprehensive documentation and sample data
 
-**Environment:** MySQL 8.0 on Ubuntu (WSL)
+**Environment:** MySQL 8.0 on Ubuntu (WSL)  
+**Skills Demonstrated:** Database design, SQL queries, data integrity, reporting
 
 ### 🔹 Enterprise IT Executive Training
 **GitHub:** https://github.com/AbulHasnatHridoy/Enterprise_IT_Executive-Training
@@ -122,11 +126,12 @@ Graduated: 2025 | CGPA: 3.59/4.00
 
 ## 🧠 Strengths
 
-- Strong logical thinking
-- Problem-solving through debugging
-- Willingness to learn and improve
-- Clear understanding of relational database structure
-- Discipline in hands-on practice
+- Strong logical thinking and problem-solving
+- Attention to detail in database design
+- Clear understanding of relational database principles
+- Ability to learn and adapt to new systems
+- Disciplined approach to documentation
+- Team collaboration and communication skills
 
 ---
 
