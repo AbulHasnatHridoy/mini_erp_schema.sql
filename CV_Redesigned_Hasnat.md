@@ -1,8 +1,8 @@
 # Abul Hasnat Hridoy
 
 **Dhaka, Bangladesh**  
-📞 Phone: +880 1XXX-XXXXXX  
-📧 Email: hasnat.hridoy@example.com  
+📞 Phone: +880 1997028045  
+📧 Email: hasnathridoy009@gmail.com  
 🔗 LinkedIn: linkedin.com/in/abul-hasnat-hridoy  
 💻 GitHub: https://github.com/AbulHasnatHridoy/mini_erp_schema.sql
 
@@ -64,8 +64,8 @@ Designed and implemented a relational database system simulating ERP-style emplo
 ## 🎓 Education
 
 **Bachelor of Science in Computer Science**  
-[Your University Name]  
-Graduated: [Year] / Expected: [Year]
+Daffodil International University  
+Graduated: 2025
 
 ---
 
