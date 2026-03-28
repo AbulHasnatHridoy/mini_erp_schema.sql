@@ -8,79 +8,39 @@
 
 ---
 
-## 🎯 Career Objective
+## Professional Summary
 
-Entry-level IT/MIS candidate with practical experience in SQL database design and reporting, seeking to contribute to enterprise IT operations while developing ERP and system support expertise.
+Detail-oriented IT/MIS professional with hands-on experience in SQL database management, data analysis, and ERP fundamentals. Proven ability to develop reporting tools and manage data pipelines, demonstrated through projects analyzing 15+ records to identify sales trends and top-performing products. Seeking to apply strong analytical, reporting, and coordination skills to an MIS or IT Executive role.
 
----
-
-## 💻 Technical Skills
-
-### Database & SQL
-- MySQL 8.0 (Ubuntu WSL environment)
-- Relational database design (normalized schema)
-- Primary Key / Foreign Key implementation
-- CHECK constraints and data validation
-- INNER JOIN, LEFT JOIN
-- GROUP BY, Aggregation (SUM, AVG, COUNT)
-- Subqueries and nested queries
-- Basic indexing
-- Date-based reporting queries
-- Transaction management
-
-### ERP & Enterprise Systems
-- SAP ERP architecture fundamentals
-- Understanding of three-tier architecture (Presentation, Application, Database)
-- SAP transaction codes (MIGO, MB51, MMBE)
-- Client separation concept
-- Role-based access control (RBAC)
-- Authorization and user management concepts
-- Audit trail and change document tracking
-
-### Compliance & Data Integrity
-- GxP compliance awareness (GMP, GLP, GDP)
-- ALCOA+ principles (Attributable, Legible, Contemporaneous, Original, Accurate + Complete, Consistent, Enduring, Available)
-- FDA 21 CFR Part 11 awareness
-- System validation concepts (IQ/OQ/PQ)
-- Change control procedures
-- Documentation and audit readiness
-
-### Operating System
-- Ubuntu (WSL) – command line basics and MySQL CLI usage
-- File system navigation
-- Basic shell commands
-
-### Tools
-- Git & GitHub (version control and project documentation)
-- Microsoft Excel (Intermediate level)
-- Microsoft Word & PowerPoint (Intermediate)
+**Keywords:** MIS Executive, IT Executive, SQL, MySQL, ETL, Data Pipeline, Reporting, Pivot Tables, Excel, SAP, ERP, GxP, ALCOA, 21 CFR Part 11, WSL, Git, Dashboard
 
 ---
 
-## 📂 Projects
+## Technical Skills
 
-### 🔹 Mini ERP SQL Project
+- **Database & Reporting:** MySQL 8.0, Relational Schema Design (3NF), Advanced SQL (Joins, Group By, Window Functions, Subqueries), Data Integrity (Constraints), Reporting Queries.
+- **ERP & Compliance:** SAP ERP Fundamentals (Architecture, T-codes), GxP/ALCOA+ Principles, FDA 21 CFR Part 11 Awareness, System Validation & Change Control Concepts.
+- **Tools & Technologies:** Git, GitHub, Microsoft Excel (Pivot Tables, Reporting), Ubuntu (WSL), Shell Commands.
+
+---
+
+## Projects
+
+### Mini ERP SQL Project
 **GitHub:** https://github.com/AbulHasnatHridoy/mini_erp_schema.sql
 
 Designed and implemented a relational database system simulating ERP-style employee and payroll management.
 
 **Project Highlights:**
-- Designed normalized relational schema (3NF) with three core tables
-- Implemented foreign key relationships and referential integrity
-- Enforced data integrity using CHECK constraints
-- Created complex reporting queries:
-  - Department-wise total salary aggregation using GROUP BY
-  - Monthly payroll summary with date functions
-  - Employee salary analysis with INNER JOIN and LEFT JOIN
-  - Department with highest total salary using ORDER BY and LIMIT
-  - Advanced queries using window functions for running totals
-- Built subqueries for business logic (salary above average, employee count)
-- Developed comprehensive documentation and sample data
+- Designed a normalized relational schema (3NF) with 3 core tables to manage employee and payroll data efficiently.
+- Wrote 5+ complex SQL queries to generate critical business reports, including department-wise salary totals and monthly payroll summaries.
+- Used advanced SQL (Window Functions, Subqueries) to perform in-depth analysis, such as identifying the department with the highest payroll expense.
+- Ensured data integrity and accuracy by implementing foreign keys and CHECK constraints, reducing data entry errors.
 
 **Environment:** MySQL 8.0 on Ubuntu (WSL)  
-**Skills Demonstrated:** Database design, SQL queries, data integrity, reporting
+**Skills Demonstrated:** Database Design, Advanced SQL, Data Integrity, Business Logic Implementation
 
-### 🔹 Enterprise IT Executive Training
+### Enterprise IT Executive Training
 **GitHub:** https://github.com/AbulHasnatHridoy/Enterprise_IT_Executive-Training
 
 Completed structured self-directed training in Enterprise IT fundamentals and SAP ERP for pharmaceutical/regulated industries.
@@ -99,7 +59,7 @@ Completed structured self-directed training in Enterprise IT fundamentals and SA
 
 ---
 
-## 🎓 Education
+## Education
 
 **Bachelor of Science in Computer Science & Engineering**  
 Daffodil International University  
@@ -113,7 +73,7 @@ Graduated: 2025 | CGPA: 3.59/4.00
 
 ---
 
-## 📚 Ongoing Learning
+## Ongoing Learning
 
 - Advanced SQL reporting and optimization
 - SAP ERP operations and module integration
@@ -124,18 +84,18 @@ Graduated: 2025 | CGPA: 3.59/4.00
 
 ---
 
-## 🧠 Strengths
+## Strengths & Soft Skills
 
-- Strong logical thinking and problem-solving
-- Attention to detail in database design
-- Clear understanding of relational database principles
-- Ability to learn and adapt to new systems
-- Disciplined approach to documentation
-- Team collaboration and communication skills
+- **Reporting & Communication:** Clearly presenting data insights.
+- **Coordination:** Collaborating effectively with team members.
+- **Problem-Solving:** Strong logical and analytical thinking.
+- **Attention to Detail:** Meticulous in database design and documentation.
+- **Adaptability:** Quick to learn and adapt to new systems and processes.
+- **Self-Learning:** Proactive in acquiring new technical skills.
 
 ---
 
-## ✅ Key Competencies
+## Key Competencies
 
 - **Database Management:** Hands-on experience with MySQL schema design and query optimization
 - **Data Integrity:** Implementation of constraints and validation rules
