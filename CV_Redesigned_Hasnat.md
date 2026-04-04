@@ -26,6 +26,32 @@ Detail-oriented IT/MIS professional with hands-on experience in SQL database man
 
 ## Projects
 
+### Pharmaceutical Inventory MIS System
+**GitHub:** https://github.com/AbulHasnatHridoy/Pharma-Inventory-MIS-System
+
+End-to-end Inventory MIS prototype built for pharmaceutical inventory tracking, reporting, and dashboarding. The solution includes a normalized MySQL schema, sample data, reporting SQL queries, an Excel-based MIS dashboard (Pivot Tables & Charts), and supporting screenshots and documentation.
+
+**Role & Responsibilities:**
+- Designed the relational schema (products, warehouses, stock_in, stock_out) and implemented DDL + sample data.
+- Authored reporting SQL for Current Stock, Low Stock Alerts, Warehouse-wise Stock, Top Consumed Products, and Dead Stock analysis.
+- Built an Excel MIS dashboard with Pivot Tables, charts and interactive slicers for stakeholder reporting.
+- Documented run instructions and published code, sample data, and visual assets on GitHub.
+
+**Key Features & Impact:**
+- Centralized inventory view across multiple warehouses, enabling rapid identification of low-stock and out-of-stock items.
+- Automated reporting queries that surface top-consuming products and warehouse-level stock balances for operational decisions.
+- Dashboard displays quick KPIs (e.g., Total Stock) and low-stock counts to support inventory replenishment planning.
+- Artifacts included: `01_Database_SQL/inventory_database.sql`, `02_Excel_Reports/Pharma_Inventory_MIS.xlsx`, `03_Dashboard/MIS_Dashboard.png`, and `04_Screenshots/` (exported reports).
+
+**Environment & Tools:** Linux (WSL Ubuntu), MySQL 8.0, SQL, Microsoft Excel (Pivot Tables & Charts), Git/GitHub.
+
+**Skills Demonstrated:** Database design (3NF), advanced SQL reporting, data validation, Excel dashboarding, documentation and version control.
+
+**How to review / run:**
+1. Load `01_Database_SQL/inventory_database.sql` into a MySQL 8.0 instance to create schema and sample data.
+2. Open `02_Excel_Reports/Pharma_Inventory_MIS.xlsx` to view the dashboard (pivot caches reference the sample data exported in the repo).
+3. Inspect `03_Dashboard/` and `04_Screenshots/` for visual artifacts and SQL query outputs used to build the reports.
+
 ### Mini ERP SQL Project
 **GitHub:** https://github.com/AbulHasnatHridoy/mini_erp_schema.sql
 
