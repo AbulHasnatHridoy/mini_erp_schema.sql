@@ -48,6 +48,8 @@ End-to-end Inventory MIS prototype built for pharmaceutical inventory tracking, 
 - Dashboard displays quick KPIs (e.g., Total Stock) and low-stock counts to support inventory replenishment planning.
 - Artifacts included: `01_Database_SQL/inventory_database.sql`, `02_Excel_Reports/Pharma_Inventory_MIS.xlsx`, `03_Dashboard/MIS_Dashboard.png`, and `04_Screenshots/` (exported reports).
 
+Improved inventory visibility using data-driven reporting
+
 **GitHub:** https://github.com/AbulHasnatHridoy/Pharma-Inventory-MIS-System
 
 **Impact statements:**
