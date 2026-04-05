@@ -1,4 +1,4 @@
-# Abul Hasnat Hridoy — MIS Executive | Inventory & ERP Reporting | Data Analysis
+# Abul Hasnat Hridoy — Junior MIS Executive | SQL | Excel Dashboard | Inventory Reporting
 
 **Dhaka, Bangladesh**  
 📞 Phone: +880 1997028045  
