@@ -3,8 +3,8 @@
 **Dhaka, Bangladesh**  
 📞 Phone: +880 1997028045  
 📧 Email: hasnathridoy009@gmail.com  
-🔗 LinkedIn: linkedin.com/in/abul-hasnat-hridoy  
-💻 GitHub: https://github.com/AbulHasnatHridoy/mini_erp_schema.sql
+🔗 LinkedIn: https://www.linkedin.com/in/hasnat-hridoy-80918334a  
+💻 GitHub: https://github.com/AbulHasnatHridoy
 
 ---
 
