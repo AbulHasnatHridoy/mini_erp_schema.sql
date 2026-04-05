@@ -1,4 +1,4 @@
-# Abul Hasnat Hridoy — Junior MIS Executive | SQL | Excel Dashboard | Inventory Reporting
+# Abul Hasnat Hridoy — Junior IT Executive | MIS Reporting | SQL | Excel Dashboard
 
 **Dhaka, Bangladesh**  
 📞 Phone: +880 1997028045  
@@ -47,6 +47,15 @@ End-to-end Inventory MIS prototype built for pharmaceutical inventory tracking, 
 - Automated reporting queries that surface top-consuming products and warehouse-level stock balances for operational decisions.
 - Dashboard displays quick KPIs (e.g., Total Stock) and low-stock counts to support inventory replenishment planning.
 - Artifacts included: `01_Database_SQL/inventory_database.sql`, `02_Excel_Reports/Pharma_Inventory_MIS.xlsx`, `03_Dashboard/MIS_Dashboard.png`, and `04_Screenshots/` (exported reports).
+
+**GitHub:** https://github.com/AbulHasnatHridoy/Pharma-Inventory-MIS-System
+
+**Impact statements:**
+- Designed MySQL database for pharmaceutical inventory
+- Generated stock & warehouse reports using SQL
+- Built interactive Excel MIS dashboard
+- Identified low-stock items for decision support
+- Created pivot-based KPI reporting
 
 **Environment & Tools:** Linux (WSL Ubuntu), MySQL 8.0, SQL, Microsoft Excel (Pivot Tables & Charts), Git/GitHub.
 
@@ -139,9 +148,9 @@ Graduated: 2025 | CGPA: 3.59/4.00
 
 ## Tools
 
+- Microsoft Excel (Advanced)
 - MySQL
-- Microsoft Excel
-- Linux (Ubuntu / WSL)
+- Linux (Ubuntu)
 - GitHub
 - VS Code
 
