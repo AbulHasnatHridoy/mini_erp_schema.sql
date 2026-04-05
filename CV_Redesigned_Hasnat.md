@@ -1,4 +1,4 @@
-# Abul Hasnat Hridoy
+# Abul Hasnat Hridoy — MIS Executive | Inventory & ERP Reporting | Data Analysis
 
 **Dhaka, Bangladesh**  
 📞 Phone: +880 1997028045  
@@ -10,17 +10,22 @@
 
 ## Professional Summary
 
-Detail-oriented IT/MIS professional with hands-on experience in SQL database management, data analysis, and ERP fundamentals. Proven ability to develop reporting tools and manage data pipelines, demonstrated through projects analyzing 15+ records to identify sales trends and top-performing products. Seeking to apply strong analytical, reporting, and coordination skills to an MIS or IT Executive role.
+Entry-level MIS & IT Executive with hands-on experience in inventory database design, SQL reporting, and Excel dashboard development. Built a Pharmaceutical Inventory MIS System using Linux, MySQL, and Excel for business decision support. Strong interest in ERP reporting and data-driven operations.
 
-**Keywords:** MIS Executive, IT Executive, SQL, MySQL, ETL, Data Pipeline, Reporting, Pivot Tables, Excel, SAP, ERP, GxP, ALCOA, 21 CFR Part 11, WSL, Git, Dashboard
+**Keywords:** MIS Executive, Inventory Reporting, SQL, MySQL, Excel Dashboard, WSL, Pivot Tables, ERP Reporting, Data Analysis
 
 ---
 
 ## Technical Skills
 
-- **Database & Reporting:** MySQL 8.0, Relational Schema Design (3NF), Advanced SQL (Joins, Group By, Window Functions, Subqueries), Data Integrity (Constraints), Reporting Queries.
-- **ERP & Compliance:** SAP ERP Fundamentals (Architecture, T-codes), GxP/ALCOA+ Principles, FDA 21 CFR Part 11 Awareness, System Validation & Change Control Concepts.
-- **Tools & Technologies:** Git, GitHub, Microsoft Excel (Pivot Tables, Reporting), Ubuntu (WSL), Shell Commands.
+- Advanced Excel (Pivot Tables, Dashboard, KPI)
+- MySQL (Joins, Aggregations, Reporting Queries)
+- MIS Reporting
+- Inventory Management Reporting
+- Data Analysis & Cleaning
+- Linux Command Line (WSL)
+- Excel Pivot Charts
+- Stock & Sales Analysis
 
 ---
 
@@ -123,11 +128,22 @@ Graduated: 2025 | CGPA: 3.59/4.00
 
 ## Key Competencies
 
-- **Database Management:** Hands-on experience with MySQL schema design and query optimization
-- **Data Integrity:** Implementation of constraints and validation rules
-- **Documentation:** Well-documented code and project README files
-- **Version Control:** Practical use of Git for project management
-- **Self-Learning:** Proactive in acquiring new technical skills
+- MIS Reporting
+- Excel Dashboard
+- Inventory Control
+- Data Analysis
+- SQL Query Writing
+- ERP Support
+
+---
+
+## Tools
+
+- MySQL
+- Microsoft Excel
+- Linux (Ubuntu / WSL)
+- GitHub
+- VS Code
 
 ---
 
