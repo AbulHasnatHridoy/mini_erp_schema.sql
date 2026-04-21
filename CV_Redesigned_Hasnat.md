@@ -1,3 +1,5 @@
+<img src="docs/assets/profile_photo.png" alt="Abul Hasnat Hridoy" width="150" style="border-radius:50%;">
+
 # Abul Hasnat Hridoy — Junior IT Executive | MIS Reporting | SQL | Excel Dashboard
 
 **Dhaka, Bangladesh**  

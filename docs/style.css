@@ -2,7 +2,8 @@
 *{box-sizing:border-box}
 body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#222;margin:0}
 .wrap{max-width:920px;margin:0 auto;padding:28px}
-.site-header{background:#fff;border-bottom:4px solid var(--accent);padding:24px 0}
+.site-header{background:#fff;border-bottom:4px solid var(--accent);padding:24px 0;text-align:center}
+.site-header .profile-photo{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:16px;border:4px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,.1)}
 .site-header h1{margin:0;color:var(--accent);font-size:1.6rem}
 .tagline{color:var(--muted);margin:6px 0}
 .contact a{color:var(--accent-2);text-decoration:none}

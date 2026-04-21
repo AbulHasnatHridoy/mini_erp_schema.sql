@@ -33,11 +33,28 @@
             padding-bottom: 20px;
             margin-bottom: 30px;
         }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
         
         h1 {
             color: #2c3e50;
             font-size: 2.5em;
             margin-bottom: 10px;
+        }
+        
+        .job-title {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: 500;
         }
         
         .contact-info {
@@ -76,20 +93,25 @@
         }
         
         ul {
-            list-style-position: inside;
-            margin-left: 20px;
+            list-style: none;
         }
         
-        li {
-            margin-bottom: 8px;
-            line-height: 1.6;
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        ul li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: bold;
         }
         
         .project {
-            background: #f8f9fa;
-            padding: 20px;
-            border-left: 4px solid #3498db;
-            margin: 15px 0;
+            margin-bottom: 25px;
         }
         
         .project h3 {
@@ -192,20 +214,17 @@
 <body>
     <div class="container">
         <header>
-            <h1>Abul Hasnat Hridoy — Junior IT Executive | MIS Reporting | SQL | Excel Dashboard</h1>
+            <img src="docs/assets/profile_photo.png" alt="Abul Hasnat Hridoy" class="profile-photo">
+            <h1>Abul Hasnat Hridoy</h1>
+            <p class="job-title">Junior IT Executive | MIS Reporting | SQL | Excel Dashboard</p>
             <div class="contact-info">
-                📍 Dhaka, Bangladesh<br>
-                📞 +880 1997028045 | 📧 <a href="mailto:hasnathridoy009@gmail.com">hasnathridoy009@gmail.com</a><br>
-                🔗 LinkedIn: <a href="https://www.linkedin.com/in/hasnat-hridoy-80918334a" target="_blank">https://www.linkedin.com/in/hasnat-hridoy-80918334a</a><br>
-                💻 GitHub: <a href="https://github.com/AbulHasnatHridoy" target="_blank">https://github.com/AbulHasnatHridoy</a>
-            </div>
-            <!-- ATS-friendly keywords: keep as plain text for parsers -->
-            <div style="margin-top:8px; font-size:0.95em; color:#333;">
-                <strong>Keywords:</strong> MIS Executive, IT Executive, SQL, MySQL, ETL, Data Pipeline, Reporting, Pivot Tables, Excel, SAP, ERP, GxP, ALCOA, 21 CFR Part 11, WSL, Git, Dashboard
+                Dhaka, Bangladesh<br>
+                📞 Phone: +880 1997028045 | 📧 Email: <a href="mailto:hasnathridoy009@gmail.com">hasnathridoy009@gmail.com</a><br>
+                🔗 LinkedIn: <a href="https://www.linkedin.com/in/hasnat-hridoy-80918334a" target="_blank">linkedin.com/in/hasnat-hridoy-80918334a</a> | 💻 GitHub: <a href="https://github.com/AbulHasnatHridoy" target="_blank">github.com/AbulHasnatHridoy</a>
             </div>
         </header>
 
-        <section class="section">
+        <section class="section summary">
             <h2>Professional Summary</h2>
             <div class="objective">
                 Entry-level MIS & IT Executive with hands-on experience in inventory database design, SQL reporting, and Excel dashboard development. Built a Pharmaceutical Inventory MIS System using Linux, MySQL, and Excel for business decision support. Strong interest in ERP reporting and data-driven operations.
@@ -235,27 +254,30 @@
                 <h3>Pharmaceutical Inventory MIS System</h3>
                 <p><strong>GitHub:</strong> <a href="https://github.com/AbulHasnatHridoy/Pharma-Inventory-MIS-System" class="project-link" target="_blank">github.com/AbulHasnatHridoy/Pharma-Inventory-MIS-System</a></p>
 
-                <p>End-to-end Inventory MIS prototype for pharmaceutical operations that includes a normalized MySQL schema, reporting SQL, an Excel-based MIS dashboard, and visual artifacts for stakeholder reporting.</p>
-
-                <div class="highlights">
-                    <p><strong>Role & Responsibilities:</strong></p>
+                <p>End-to-end Inventory MIS prototype built for pharmaceutical inventory tracking, reporting, and dashboarding. The solution includes a normalized MySQL schema, sample data, reporting SQL queries, an Excel-based MIS dashboard (Pivot Tables & Charts), and supporting screenshots and documentation.</p>
+                
+                <div class="responsibilities">
+                    <strong>Role & Responsibilities:</strong>
                     <ul>
-                        <li>Designed relational schema (products, warehouses, stock_in, stock_out) and implemented DDL with sample data.</li>
-                        <li>Authored reporting SQL for Current Stock, Low Stock Alerts, Warehouse-wise Stock, Top Consumed Products, and Dead Stock.</li>
-                        <li>Built an Excel dashboard (Pivot Tables, charts, slicers) and exported dashboard images for presentation.</li>
-                        <li>Documented run instructions and published all artifacts on GitHub for reproducibility.</li>
+                        <li>Designed the relational schema (products, warehouses, stock_in, stock_out) and implemented DDL + sample data.</li>
+                        <li>Authored reporting SQL for Current Stock, Low Stock Alerts, Warehouse-wise Stock, Top Consumed Products, and Dead Stock analysis.</li>
+                        <li>Built an Excel MIS dashboard with Pivot Tables, charts and interactive slicers for stakeholder reporting.</li>
+                        <li>Documented run instructions and published code, sample data, and visual assets on GitHub.</li>
                     </ul>
-                    <p><strong>Key Features & Impact:</strong></p>
-                    <ul>
-                        <li>Centralized inventory visibility across warehouses enabling fast low-stock detection and replenishment planning.</li>
-                        <li>Automated SQL reports that surface top-consuming products and warehouse-level balances for operational decisions.</li>
-                        <li>Dashboard KPIs (e.g., Total Stock and Low Stock counts) for quick executive reporting and action.</li>
-                        <li>Included artifacts: <code>01_Database_SQL/inventory_database.sql</code>, <code>02_Excel_Reports/Pharma_Inventory_MIS.xlsx</code>, <code>03_Dashboard/MIS_Dashboard.png</code>, and <code>04_Screenshots/</code>.</li>
-                    </ul>
-                    <p>Improved inventory visibility using data-driven reporting</p>
-                    <p><strong>Environment:</strong> Linux (WSL), MySQL 8.0, Excel (Pivot Charts), Git/GitHub</p>
-                    <p><strong>Skills:</strong> Database design (3NF), Advanced SQL reporting, Excel dashboarding, Data validation, Documentation</p>
                 </div>
+
+                <div class="features">
+                    <strong>Key Features & Impact:</strong>
+                    <ul>
+                        <li>Centralized inventory view across multiple warehouses, enabling rapid identification of low-stock and out-of-stock items.</li>
+                        <li>Automated reporting queries that surface top-consuming products and warehouse-level stock balances for operational decisions.</li>
+                        <li>Dashboard displays quick KPIs (e.g., Total Stock) and low-stock counts to support inventory replenishment planning.</li>
+                    </ul>
+                </div>
+                
+                <p class="artifacts">
+                    <strong>Artifacts:</strong> <code>01_Database_SQL/inventory_database.sql</code>, <code>02_Excel_Reports/Pharma_Inventory_MIS.xlsx</code>, <code>03_Dashboard/MIS_Dashboard.png</code>, and <code>04_Screenshots/</code> (exported reports).
+                </p>
             </div>
 
             <div class="project">
