@@ -25,47 +25,56 @@
             background: white;
             padding: 50px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-top: 5px solid #2c3e50;
         }
         
-        header {
-            text-align: center;
-            border-bottom: 3px solid #2c3e50;
+        .cv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding-bottom: 20px;
             margin-bottom: 30px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .header-main {
+            flex-grow: 1;
         }
 
         .profile-photo {
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 20px;
-            border: 5px solid #fff;
-            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            border: 4px solid #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-left: 30px;
         }
         
         h1 {
             color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            line-height: 1.1;
         }
         
         .job-title {
-            font-size: 1.2em;
-            color: #555;
-            margin-bottom: 20px;
+            font-size: 1.3em;
+            color: #3498db;
+            margin-bottom: 15px;
             font-weight: 500;
         }
         
         .contact-info {
             color: #555;
-            font-size: 0.95em;
-            line-height: 1.8;
+            font-size: 0.9em;
+            line-height: 1.7;
         }
         
         .contact-info a {
             color: #3498db;
             text-decoration: none;
+            font-weight: 500;
         }
         
         .contact-info a:hover {
@@ -144,6 +153,7 @@
             border-radius: 5px;
             font-style: italic;
             margin-bottom: 20px;
+            border-left: 4px solid #3498db;
         }
         
         .strengths-grid {
@@ -197,6 +207,15 @@
         }
         
         @media screen and (max-width: 768px) {
+            .cv-header {
+                flex-direction: column-reverse;
+                align-items: center;
+                text-align: center;
+            }
+            .profile-photo {
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
             .container {
                 padding: 30px 20px;
             }
@@ -213,15 +232,17 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <img src="docs/assets/profile_photo.png" alt="Abul Hasnat Hridoy" class="profile-photo">
-            <h1>Abul Hasnat Hridoy</h1>
-            <p class="job-title">Junior IT Executive | MIS Reporting | SQL | Excel Dashboard</p>
-            <div class="contact-info">
-                Dhaka, Bangladesh<br>
-                📞 Phone: +880 1997028045 | 📧 Email: <a href="mailto:hasnathridoy009@gmail.com">hasnathridoy009@gmail.com</a><br>
-                🔗 LinkedIn: <a href="https://www.linkedin.com/in/hasnat-hridoy-80918334a" target="_blank">linkedin.com/in/hasnat-hridoy-80918334a</a> | 💻 GitHub: <a href="https://github.com/AbulHasnatHridoy" target="_blank">github.com/AbulHasnatHridoy</a>
+        <header class="cv-header">
+            <div class="header-main">
+                <h1>Abul Hasnat Hridoy</h1>
+                <p class="job-title">Junior IT Executive | MIS Reporting | SQL | Excel Dashboard</p>
+                <div class="contact-info">
+                    Dhaka, Bangladesh<br>
+                    📞 <a href="tel:+8801997028045">+880 1997028045</a> | 📧 <a href="mailto:hasnathridoy009@gmail.com">hasnathridoy009@gmail.com</a><br>
+                    🔗 <a href="https://www.linkedin.com/in/hasnat-hridoy-80918334a" target="_blank">LinkedIn</a> | 💻 <a href="https://github.com/AbulHasnatHridoy" target="_blank">GitHub</a>
+                </div>
             </div>
+            <img src="docs/assets/profile_photo.png" alt="Abul Hasnat Hridoy" class="profile-photo">
         </header>
 
         <section class="section summary">
